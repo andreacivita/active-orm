@@ -16,7 +16,12 @@ public class Row {
     protected boolean existing;
     protected String primary;
 
-
+    /**
+     * Populate Row attributes with data from ResultSet.
+     * All column of ResultSet must correspond to a proprerty of Row Object.
+     * With this, you can use result as an object (without use try catch and abstrating more from relational logic)
+     * @param result ResultSet from fetch()
+     */
     public void populate(ResultSet result){
         existing=true;
         Class<?> classe = this.getClass();
@@ -46,6 +51,10 @@ public class Row {
 
     }
 
+    /**
+     * Save current row into db. If row exist, it will update row. If row doesn't exist, it will insert new row.
+     * @return boolean.
+     */
     public boolean save(){
         boolean execution = false;
         if(existing){
@@ -68,6 +77,9 @@ public class Row {
         return execution;
     }
 
+    /**
+     * Delete row from database.
+     */
     public void destroy(){
         boolean execution = false;
         if(existing){

@@ -146,7 +146,7 @@ public class DbTable {
     }
 
     /**
-     * Add limit clause. It works with Mysql, Sqlite & PostgreSQL
+     * Add limit clause. It works with Mysql, Sqlite and PostgreSQL
      * @param rows number of rows. Starting point is from 0.
      */
     public void limit(int rows) {
@@ -154,7 +154,7 @@ public class DbTable {
     }
 
     /**
-     * Add limit clause. It works with Mysql, Sqlite & PostgreSQL
+     * Add limit clause. It works with Mysql, Sqlite and PostgreSQL
      * @param start starting number.
      * @param number number of rows.
      */

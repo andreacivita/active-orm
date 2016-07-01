@@ -7,8 +7,8 @@ public class MySQLHelper {
 
     /**
      * Escape string for prevent sqlinjection and error in data with " ' " char
-     * @param str
-     * @return
+     * @param str string escaped
+     * @return String
      */
     public static String eScapeString(String str) {
         String data = null;
@@ -21,8 +21,8 @@ public class MySQLHelper {
 
     /**
      * refactor all data that contains " ' ". Very useful in italian localization.
-     * @param str
-     * @return
+     * @param str string refactored
+     * @return String
      */
     public static String refactorString(String str){
         String data = null;
