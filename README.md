@@ -12,6 +12,8 @@ If you need complete tutorial, you can visit [this wiki](https://github.com/andr
 
 If you only need JavaDoc, visit [here](https://andreacivita.github.io/active-orm/javadoc/).
 
+You can download Active ORM [here](https://github.com/andreacivita/active-orm/releases/latest)
+
 ##CONTRIBUTION
 
 Active ORM is under GPL 3.0 License, that means you are free to read, edit and republish this code. If you have suggestion, enhancement or bug-fix, please fork this project, add your stuff and make a pull request! 
