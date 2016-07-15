@@ -1679,7 +1679,8 @@ hr {
     height: 0;
 }
 pre {
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 code, kbd, pre, samp {
     font-family: monospace, monospace;
@@ -3929,8 +3930,13 @@ span.badge.new:after {
     width: 100%;
     margin-left: 0;
 }
+@media only screen and (min-width: 726px)  {
+    .row .col.offset-s1 {
+        margin-left: 15.33333%}
+}
 .row .col.offset-s1 {
     margin-left: 8.33333%}
+
 .row .col.offset-s2 {
     margin-left: 16.66667%}
 .row .col.offset-s3 {
@@ -6823,9 +6829,16 @@ nav .btn, nav .btn-large {
 nav .login {
     margin-bottom: 0;
 }
-.logo-img {
-    max-height: 64px!important;
-    padding: 15px 0!important;
+@media only screen and (max-width: 399px) {
+    .logo-img {
+        max-height: 64px !important;
+        padding: 15px 0 !important;
+    }
+}
+@media only screen and (min-width: 400px) {
+    .logo-img {
+        max-height: 58px !important;
+    }
 }
 .dropdown-button {
     display: flex;
