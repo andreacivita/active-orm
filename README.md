@@ -4,11 +4,11 @@ Active ORM is a lightweight ORM for Java Development that allows you to perform 
 
 With Active ORM you can use all database items, like tables and rows, as object with properties and methods.
 
-Furthermore, with Active ORM you only need to import your JDBC Driver, configure connection option and Active ORM will take care about all rest of operations.
+Furthermore, with Active ORM you only need to import your JDBC Driver, configure connection option and Active ORM will take care about all rest of operations. And, if you are using Kotlin in your project,you can use Active ORM without problems.
 
 You can discover more [here](https://andreacivita.github.io/active-orm/).
 
-If you need complete tutorial, you can visit [this page](https://andreacivita.github.io/active-orm/tutorial).
+If you need complete tutorial, you can visit [this wiki](https://github.com/andreacivita/active-orm/wiki).
 
 If you only need JavaDoc, visit [here](https://andreacivita.github.io/active-orm/javadoc/).
 
