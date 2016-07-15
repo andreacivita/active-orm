@@ -23,8 +23,8 @@ Active ORM is under GPL 3.0 License, that means you are free to read, edit and r
 Remember that all your stuff will be under GPL 3.0 License. So, if you don't want to use this license, please don't fork this project.
 
 <div>
-  <img src="http://individual.utoronto.ca/mingyuanli/images/java_desktop.jpg" width="350"/>
-   <img src="http://miptstream.ru/wp-content/uploads/2016/04/logo_Kotlin.png" width="350"/>
-   <br><br>
-   <img src="https://andreacivita.github.io/active-orm/images/andreacivita.png"/>
+<img src="https://andreacivita.github.io/active-orm/images/andreacivita.png"/>
+<br><br><br>
+  <img src="http://individual.utoronto.ca/mingyuanli/images/java_desktop.jpg" width="350px" />
+  <img src="http://miptstream.ru/wp-content/uploads/2016/04/logo_Kotlin.png" width="350px"  />
 </div>
